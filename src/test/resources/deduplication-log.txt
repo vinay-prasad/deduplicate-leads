@@ -1,0 +1,6 @@
+Duplicate detected by ID:
+Old Record: {entryDate=2022-01-01T12:00:00Z, _id=1, email=a@example.com}
+New Record: {entryDate=2022-01-03T12:00:00Z, _id=1, email=b@example.com}
+Field 'entryDate' changed: '2022-01-01T12:00:00Z' -> '2022-01-03T12:00:00Z'
+Field 'email' changed: 'a@example.com' -> 'b@example.com'
+

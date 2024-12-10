@@ -1,0 +1,46 @@
+Duplicate detected by ID:
+Old Record: {_id=jkj238238jdsnfsj23, email=foo@bar.com, firstName=John, lastName=Smith, address=123 Street St, entryDate=2014-05-07T17:30:20+00:00}
+New Record: {_id=jkj238238jdsnfsj23, email=coo@bar.com, firstName=Ted, lastName=Jones, address=456 Neat St, entryDate=2014-05-07T17:32:20+00:00}
+Field 'email' changed: 'foo@bar.com' -> 'coo@bar.com'
+Field 'firstName' changed: 'John' -> 'Ted'
+Field 'lastName' changed: 'Smith' -> 'Jones'
+Field 'address' changed: '123 Street St' -> '456 Neat St'
+Field 'entryDate' changed: '2014-05-07T17:30:20+00:00' -> '2014-05-07T17:32:20+00:00'
+
+Duplicate detected by Email:
+Old Record: {_id=jkj238238jdsnfsj23, email=foo@bar.com, firstName=John, lastName=Smith, address=123 Street St, entryDate=2014-05-07T17:30:20+00:00}
+New Record: {_id=sel045238jdsnfsj23, email=foo@bar.com, firstName=John, lastName=Smith, address=123 Street St, entryDate=2014-05-07T17:32:20+00:00}
+Field '_id' changed: 'jkj238238jdsnfsj23' -> 'sel045238jdsnfsj23'
+Field 'entryDate' changed: '2014-05-07T17:30:20+00:00' -> '2014-05-07T17:32:20+00:00'
+
+Duplicate detected by Email:
+Old Record: {_id=sel045238jdsnfsj23, email=foo@bar.com, firstName=John, lastName=Smith, address=123 Street St, entryDate=2014-05-07T17:32:20+00:00}
+New Record: {_id=qest38238jdsnfsj23, email=foo@bar.com, firstName=John, lastName=Smith, address=123 Street St, entryDate=2014-05-07T17:32:20+00:00}
+Field '_id' changed: 'sel045238jdsnfsj23' -> 'qest38238jdsnfsj23'
+
+Duplicate detected by Email:
+Old Record: {_id=qest38238jdsnfsj23, email=foo@bar.com, firstName=John, lastName=Smith, address=123 Street St, entryDate=2014-05-07T17:32:20+00:00}
+New Record: {_id=wuj08238jdsnfsj23, email=foo@bar.com, firstName=Micah, lastName=Valmer, address=123 Street St, entryDate=2014-05-07T17:33:20+00:00}
+Field '_id' changed: 'qest38238jdsnfsj23' -> 'wuj08238jdsnfsj23'
+Field 'firstName' changed: 'John' -> 'Micah'
+Field 'lastName' changed: 'Smith' -> 'Valmer'
+Field 'entryDate' changed: '2014-05-07T17:32:20+00:00' -> '2014-05-07T17:33:20+00:00'
+
+Duplicate detected by Email:
+Old Record: {_id=edu45238jdsnfsj23, email=mae@bar.com, firstName=Ted, lastName=Masters, address=44 North Hampton St, entryDate=2014-05-07T17:31:20+00:00}
+New Record: {_id=belr28238jdsnfsj23, email=mae@bar.com, firstName=Tallulah, lastName=Smith, address=123 Water St, entryDate=2014-05-07T17:33:20+00:00}
+Field '_id' changed: 'edu45238jdsnfsj23' -> 'belr28238jdsnfsj23'
+Field 'firstName' changed: 'Ted' -> 'Tallulah'
+Field 'lastName' changed: 'Masters' -> 'Smith'
+Field 'address' changed: '44 North Hampton St' -> '123 Water St'
+Field 'entryDate' changed: '2014-05-07T17:31:20+00:00' -> '2014-05-07T17:33:20+00:00'
+
+Duplicate detected by ID:
+Old Record: {_id=jkj238238jdsnfsj23, email=coo@bar.com, firstName=Ted, lastName=Jones, address=456 Neat St, entryDate=2014-05-07T17:32:20+00:00}
+New Record: {_id=jkj238238jdsnfsj23, email=bill@bar.com, firstName=John, lastName=Smith, address=888 Mayberry St, entryDate=2014-05-07T17:33:20+00:00}
+Field 'email' changed: 'coo@bar.com' -> 'bill@bar.com'
+Field 'firstName' changed: 'Ted' -> 'John'
+Field 'lastName' changed: 'Jones' -> 'Smith'
+Field 'address' changed: '456 Neat St' -> '888 Mayberry St'
+Field 'entryDate' changed: '2014-05-07T17:32:20+00:00' -> '2014-05-07T17:33:20+00:00'
+
